@@ -1,6 +1,19 @@
+HEAD
 # Terraform-specific files to ignore
 .terraform/
 terraform.tfstate
 terraform.tfstate.backup
 crash.log
-*.tfvars
+*.tfv
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform lock file
+.terraform.lock.hcl
+# documents
+*.doc
+
