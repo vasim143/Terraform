@@ -1,19 +1,18 @@
-HEAD
-# Terraform-specific files to ignore
+# Ignore Terraform directories and state files
 .terraform/
-terraform.tfstate
-terraform.tfstate.backup
-crash.log
-*.tfv
-# Local .terraform directories
-**/.terraform/*
-
-# Terraform state files
 *.tfstate
-*.tfstate.*
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Crash logs
+crash.log
 
 # Terraform lock file
 .terraform.lock.hcl
-# documents
+
+# Local terraform plugins (optional)
+.terraform/plugins/
+
+# Ignore documents
 *.doc
 
