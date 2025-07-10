@@ -10,3 +10,7 @@ resource "aws_vpc" "name2" {
     cidr_block = "10.0.0.0/24"
   
 }
+resource "aws_vpc" "name3" {
+    cidr_block ="10.0.1.0/24"
+    
+}
